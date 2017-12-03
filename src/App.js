@@ -11,7 +11,7 @@ class App extends Component {
     };
   }
   componentWillMount(){
-    axios.get('http://localhost:8080').then(data=>{
+    axios.get('http://208.167.249.181:8080').then(data=>{
       this.setState({
         date:data.data
       });
